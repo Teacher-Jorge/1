@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bree+Serif&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.heading {
+    text-align: center;
+    font-family: 'bangers';
+    font-size: 40px;
+    color: rgb(255, 102, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+.container {
+    width: 960px;
+    margin: 5px auto;
+    padding: 10px;
+    font-family: "bree serif";
+}
+
+
+.grammar {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+    text-align: center;
+    font-family: 'bangers';
+    font-size: 40px;
+    color: rgb(255, 102, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+.item {
+    height: 50px;
+    background-color: rgb(231, 244, 255);
+    color:darkslateblue;
+    font-size: 30px;
+    padding: 20px;
+    border: skyblue 1px solid;
+    text-align: center;
+}
+
+.words {
+    color: rgb(0, 162, 255);
+    font-style: italic;
+}
+
+.highlight {
+    color: rgb(255, 0, 221);
+    font-style: italic;
+}
+
+.eg {
+    color: rgb(157, 38, 255);
+    font-style: italic;
+}
+
+.sentences {
+    font-family: 'bree serif';
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    color: darkslategrey;
+}
+
+.neg {
+    font-family: 'bree serif';
+    font-size: 25px;
+    text-align: center;
+    color:rgb(255, 0, 119);
+}
+
+.negation {
+    font-family: 'bree serif';
+    font-size: 30px;
+    text-align: center;
+    color:rgb(255, 0, 119);
+}
+
+.answers {
+    background-color: aliceblue;
+    border: none;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    font-family: 'bree serif';
+    font-size: 35px;
+    color: rgb(0, 162, 255);
+}
+
+.right {
+    visibility: hidden;
+}
+
+.score {
+    
+    font-family: 'bangers';
+    font-size: 40px;
+    color: rgb(255, 94, 0);
+    position: absolute;
+    top: 95px;
+    left: 1600px;
+    text-shadow: 1px 1px 2px black;
+}
+
+#score {
+    position: absolute;
+    left: 1700px;
+    font-family: 'bangers';
+    color: rgb(121, 157, 255);
+}
+
+.box-1 {
+    padding: 5px;
+    width: 460px;
+    height: 770px;
+    background-color: aliceblue;
+    border: 1px solid skyblue;
+    position: absolute;
+    left: 8px;
+    top: 157px;
+    font-size: 25px;
+    font-family: 'bree serif';
+    font-style: italic;
+    color:darkslateblue
+}
+
+.box-2 {
+    padding: 5px;
+    width: 460px;
+    height: 770px;
+    border: 1px solid skyblue;
+    position: absolute;
+    left: 1440px;
+    top: 157px;
+    display: flex;
+    align-content: center;
+}
+
+.images {
+    position: absolute;
+    justify-self: center;
+    visibility: hidden;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
